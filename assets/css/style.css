@@ -1,0 +1,80 @@
+:root{
+    --color-primario: #EBE32C;
+    --color-secundario: #52EBE8;
+    --color-terciario: #ED5878;
+    --color-cuarto:  #E15BEB;
+    --color-quinto: #F754DF;
+    --blanco: #fefefe;
+    --negro: #000;
+    --alpha: .3;
+}
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #EBE32C; }
+.My-Color-Theme-2-hex { color: #52EBE8; }
+.My-Color-Theme-3-hex { color: #ED5878; }
+.My-Color-Theme-4-hex { color: #E15BEB; }
+.My-Color-Theme-5-hex { color: #F754DF; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(235, 227, 44, var(--alpha)); }
+.My-Color-Theme-2-rgba { color: rgba(82, 235, 232, var(--alpha)); }
+.My-Color-Theme-3-rgba { color: rgba(237, 88, 120, var(--alpha)); }
+.My-Color-Theme-4-rgba { color: rgba(225, 91, 235, var(--alpha)); }
+.My-Color-Theme-5-rgba { color: rgba(247, 84, 223, var(--alpha)); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(57, 82, 54, 1); }
+.My-Color-Theme-2-hsla { color: hsla(178, 79, 62, 1); }
+.My-Color-Theme-3-hsla { color: hsla(347, 80, 63, 1); }
+.My-Color-Theme-4-hsla { color: hsla(295, 78, 63, 1); }
+.My-Color-Theme-5-hsla { color: hsla(308, 91, 64, 1); }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgba(247, 84, 223, var(--alpha));;
+}
+nav .logo{
+    width: 15%;
+}
+nav .menu{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+nav ul li{
+    padding: 20px;    
+}
+nav ul li:hover{
+    background-color: rgba(235, 227, 44, var(--alpha));
+}
+nav li a{
+    margin: auto;
+}
+
+nav .search{
+    width: 5%;
+}
